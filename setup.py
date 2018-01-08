@@ -27,6 +27,7 @@ setup(
     packages = packages,
     packages_data = {},
     packages_dir = {},
+    data_files = [('/etc/issue_maker', ['issue_maker/redmine.conf'])],
     include_package_data = True,
     install_requires = requires,
     license = "MIT",
