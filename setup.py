@@ -4,7 +4,7 @@
 import os
 from setuptools import setup
 
-packages = ["redmine-issue-maker"]
+packages = ["issue_maker"]
 
 requires = [
     "python-redmine>=2.0.2"
@@ -17,7 +17,7 @@ with open("VERSION", "r") as f:
     version = f.read()
 
 setup(
-    name = "redmine_issue_maker",
+    name = "issue_maker",
     version = version,
     description = "Open an issue in redmine by slack.",
     long_description = readme,
